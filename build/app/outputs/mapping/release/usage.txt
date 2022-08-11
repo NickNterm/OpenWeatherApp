@@ -697,6 +697,7 @@ kotlin.collections.AbstractMap$Companion
 androidx.fragment.R$style
 androidx.core.database.CursorWindowCompat
 kotlin.NumbersKt__FloorDivModKt
+com.iqsoft.openweather.R$layout
 androidx.core.widget.CheckedTextViewCompat$Api16Impl
 androidx.fragment.app.FragmentStatePagerAdapter
 com.google.android.gms.common.internal.Objects:
@@ -910,7 +911,6 @@ com.google.android.gms.internal.location.zzap:
     public final android.location.Location zza(java.lang.String)
     public final void zza(com.google.android.gms.internal.location.zzaj)
     public final com.google.android.gms.location.LocationAvailability zzb(java.lang.String)
-com.example.open_weather_app.R
 io.flutter.view.TextureRegistry:
     public abstract io.flutter.view.TextureRegistry$SurfaceTextureEntry registerSurfaceTexture(android.graphics.SurfaceTexture)
     public void onTrimMemory(int)
@@ -1190,6 +1190,7 @@ android.support.v4.os.IResultReceiver$Stub$Proxy:
     public static android.support.v4.os.IResultReceiver sDefaultImpl
 com.google.android.gms.common.api.internal.DataHolderResult
 kotlin.TypeAliasesKt
+com.iqsoft.openweather.BuildConfig
 com.google.android.gms.common.internal.ClientSettings$OptionalApiSettings:
     public void <init>(java.util.Set)
 kotlin.reflect.KProperty$Accessor
@@ -1310,7 +1311,6 @@ androidx.core.app.NotificationCompat$BigTextStyle:
 kotlin.jvm.internal.CharSpreadBuilder
 com.google.android.gms.tasks.zzx
 androidx.core.view.inputmethod.InputContentInfoCompat$InputContentInfoCompatBaseImpl
-com.example.open_weather_app.R$drawable
 androidx.annotation.AnyThread
 androidx.core.content.FileProvider$PathStrategy
 kotlin.jvm.Volatile
@@ -1459,6 +1459,7 @@ io.flutter.plugin.common.EventChannel$EventSink:
 kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$lastOrNull$1
 androidx.customview.R$style
 android.support.v4.media.session.MediaControllerCompat$MediaControllerExtraData
+com.iqsoft.openweather.R$styleable
 kotlin.collections.AbstractMutableCollection
 androidx.core.widget.TextViewKt$doBeforeTextChanged$$inlined$addTextChangedListener$1
 kotlinx.coroutines.flow.StartedWhileSubscribed$command$1
@@ -2038,7 +2039,6 @@ androidx.core.graphics.drawable.RoundedBitmapDrawableFactory$DefaultRoundedBitma
 kotlin.ranges.ULongProgression$Companion
 kotlin.InitializedLazyImpl
 androidx.coordinatorlayout.R$drawable
-com.example.open_weather_app.R$id
 kotlin.time.MonotonicTimeSource
 androidx.core.app.JobIntentService$CommandProcessor
 com.google.android.gms.common.api.internal.zack
@@ -4026,7 +4026,6 @@ androidx.core.graphics.drawable.WrappedDrawableApi14
 com.google.android.gms.common.api.internal.IStatusCallback
 androidx.core.location.GnssStatusCompat
 androidx.lifecycle.ComputableLiveData$3
-com.example.open_weather_app.R$dimen
 kotlin.ranges.RangesKt__RangesKt:
     public static final kotlin.ranges.ClosedRange rangeTo(java.lang.Comparable,java.lang.Comparable)
     public static final kotlin.ranges.ClosedFloatingPointRange rangeTo(double,double)
@@ -4627,6 +4626,7 @@ androidx.core.view.MenuCompat
 kotlin.reflect.KParameter
 kotlinx.coroutines.android.HandlerContext$scheduleResumeAfterDelay$1
 io.flutter.plugin.common.ActivityLifecycleListener
+com.iqsoft.openweather.R$dimen
 kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$drop$1
 io.flutter.view.FlutterView$SurfaceTextureRegistryEntry
 androidx.lifecycle.Transformations
@@ -4696,6 +4696,7 @@ androidx.slidingpanelayout.R$integer
 androidx.coordinatorlayout.widget.CoordinatorLayout$ViewElevationComparator
 androidx.core.util.LongSparseArrayKt$valueIterator$1
 androidx.core.content.ContextCompat$Api30Impl
+com.iqsoft.openweather.R$attr
 androidx.core.content.res.ResourcesCompat$ThemeCompat
 kotlin.random.KotlinRandom
 com.google.android.gms.common.SupportErrorDialogFragment:
@@ -5118,7 +5119,6 @@ kotlin.text.Regex$findAll$2
 androidx.core.text.HtmlCompat
 com.google.android.gms.common.server.response.FastSafeParcelableJsonResponse
 androidx.core.view.accessibility.AccessibilityRecordCompat
-com.example.open_weather_app.R$style
 kotlin.text.StringsKt___StringsKt$asIterable$$inlined$Iterable$1
 androidx.slidingpanelayout.widget.SlidingPaneLayout
 androidx.versionedparcelable.VersionedParcelStream$FieldBuffer
@@ -5319,7 +5319,6 @@ androidx.core.app.ActivityRecreator
 kotlin.internal.PlatformDependent
 androidx.core.text.SpannableStringKt
 androidx.fragment.app.FragmentPagerAdapter
-com.example.open_weather_app.R$mipmap
 kotlin.jvm.JvmRecord
 androidx.legacy.coreui.R$styleable
 androidx.slidingpanelayout.widget.SlidingPaneLayout$SavedState$1
@@ -5691,6 +5690,7 @@ com.google.android.gms.common.util.MapUtils
 kotlin.math.MathKt
 androidx.core.view.OnApplyWindowInsetsListener
 androidx.core.content.pm.PermissionInfoCompat$ProtectionFlags
+com.iqsoft.openweather.R$integer
 kotlinx.coroutines.internal.MissingMainCoroutineDispatcherFactory
 kotlinx.coroutines.internal.Segment
 kotlinx.coroutines.flow.FlowKt__ZipKt$combine$$inlined$combineUnsafe$FlowKt__ZipKt$2$2
@@ -5861,6 +5861,7 @@ io.flutter.embedding.android.FlutterActivity:
 kotlinx.coroutines.selects.SelectBuilderImpl$onTimeout$$inlined$Runnable$1
 kotlinx.coroutines.flow.SharingStarted$Companion
 androidx.core.os.LocaleListPlatformWrapper
+com.iqsoft.openweather.R$drawable
 androidx.coordinatorlayout.widget.CoordinatorLayout$SavedState$1
 kotlinx.coroutines.flow.FlowKt__MigrationKt$switchMap$$inlined$flatMapLatest$1
 androidx.cursoradapter.widget.SimpleCursorAdapter
@@ -6224,7 +6225,6 @@ com.google.android.gms.common.api.internal.zacq
 com.google.android.gms.common.config.zzc
 androidx.core.view.WindowInsetsAnimationControllerCompat$Impl30
 androidx.legacy.coreui.R$layout
-com.example.open_weather_app.R$styleable
 kotlinx.coroutines.internal.LockFreeTaskQueueCore:
     public final java.util.List map(kotlin.jvm.functions.Function1)
     public final boolean isClosed()
@@ -6259,6 +6259,7 @@ kotlinx.coroutines.internal.LockFreeLinkedListNode$PrepareOp:
     public java.lang.String toString()
     public final kotlinx.coroutines.internal.LockFreeLinkedListNode affected
     public final kotlinx.coroutines.internal.LockFreeLinkedListNode next
+com.iqsoft.openweather.R$string
 androidx.core.view.DisplayCompat
 com.google.android.gms.common.data.DataBufferIterator
 kotlin.coroutines.ContinuationInterceptor$DefaultImpls:
@@ -6925,7 +6926,6 @@ kotlinx.coroutines.internal.ThreadSafeHeap:
     public final kotlinx.coroutines.internal.ThreadSafeHeapNode removeFirstIf(kotlin.jvm.functions.Function1)
     public final void addLast(kotlinx.coroutines.internal.ThreadSafeHeapNode)
     public final boolean addLastIf(kotlinx.coroutines.internal.ThreadSafeHeapNode,kotlin.jvm.functions.Function1)
-com.example.open_weather_app.R$color
 kotlinx.coroutines.AwaitAll$DisposeHandlersOnCancel
 androidx.core.app.ShareCompat$IntentReader
 androidx.annotation.MainThread
@@ -7017,7 +7017,6 @@ kotlin.random.RandomKt:
     public static final void checkRangeBounds(double,double)
     public static final java.lang.String boundsErrorMessage(java.lang.Object,java.lang.Object)
 kotlin.reflect.TypesJVMKt$WhenMappings
-com.example.open_weather_app.R$integer
 kotlin.jvm.internal.PropertyReference1
 kotlinx.coroutines.flow.internal.FusibleFlow
 io.flutter.embedding.android.FlutterFragmentActivity$CachedEngineIntentBuilder
@@ -7347,6 +7346,7 @@ android.support.v4.media.session.MediaControllerCompat$MediaControllerImplApi24
 androidx.core.view.ViewCompat$2
 androidx.core.graphics.drawable.ColorDrawableKt
 kotlinx.coroutines.flow.SharingCommand
+com.iqsoft.openweather.R$color
 kotlinx.coroutines.flow.FlowKt__ZipKt$combineTransform$6$2
 kotlin.collections.AbstractMap$keys$1$iterator$1
 io.flutter.embedding.engine.deferredcomponents.PlayStoreDeferredComponentManager$FeatureInstallStateUpdatedListener
@@ -7920,6 +7920,7 @@ android.support.v4.media.MediaBrowserCompatApi21$MediaItem
 kotlinx.coroutines.channels.AbstractSendChannel$enqueueSend$$inlined$addLastIfPrevAndIf$1
 androidx.core.app.ShareCompat
 androidx.core.content.SharedPreferencesCompat$EditorCompat
+com.iqsoft.openweather.R$id
 kotlin.collections.ArraysKt___ArraysKt$asSequence$$inlined$Sequence$9
 androidx.core.view.ViewCompat$Api30Impl
 org.intellij.lang.annotations.Pattern
@@ -8832,7 +8833,6 @@ androidx.drawerlayout.R$layout
 androidx.core.location.LocationManagerCompat$PreRGnssStatusTransport$2
 com.google.android.gms.common.api.internal.zabd
 kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$toList$1
-com.example.open_weather_app.BuildConfig
 com.google.android.gms.common.GooglePlayServicesRepairableException
 com.google.android.gms.common.api.Response:
     protected void <init>(com.google.android.gms.common.api.Result)
@@ -9439,11 +9439,11 @@ kotlin.ranges.CharProgressionIterator
 kotlin.jvm.internal.Ref$IntRef
 kotlinx.coroutines.flow.internal.ChannelLimitedFlowMerge$collectTo$2$1
 androidx.core.app.FrameMetricsAggregator$FrameMetricsApi24Impl$1
-com.example.open_weather_app.R$attr
 io.flutter.plugin.common.JSONUtil:
     private void <init>()
     public static java.lang.Object unwrap(java.lang.Object)
 kotlin.jvm.internal.TypeParameterReference$Companion
+com.iqsoft.openweather.R$style
 androidx.core.widget.NestedScrollView$AccessibilityDelegate
 com.google.android.gms.location.GeofenceStatusCodes
 com.google.android.gms.common.internal.safeparcel.SafeParcelWriter:
@@ -10018,6 +10018,7 @@ com.google.android.gms.dynamic.zae
 androidx.core.location.LocationManagerCompat$GpsStatusTransport$3
 androidx.core.provider.RequestExecutor$DefaultThreadFactory$ProcessPriorityThread
 androidx.core.provider.RequestExecutor$ReplyRunnable
+com.iqsoft.openweather.R
 kotlin.sequences.TakeWhileSequence$iterator$1
 kotlin.internal.PureReifiable
 kotlin.jvm.internal.CollectionToArray:
@@ -10579,6 +10580,7 @@ kotlin.text.DelimitedRangesSequence$iterator$1:
     public final int getCounter()
     public final void setCounter(int)
 io.flutter.app.FlutterPluginRegistry$FlutterRegistrar
+com.iqsoft.openweather.R$mipmap
 com.google.android.gms.common.data.FreezableUtils
 kotlin.UseExperimental
 kotlin.collections.BooleanIterator
@@ -11008,7 +11010,6 @@ io.flutter.embedding.engine.dart.DartMessenger:
     public int getPendingChannelResponseCount()
     private static final java.lang.String TAG
 kotlinx.coroutines.internal.ConcurrentLinkedListNode
-com.example.open_weather_app.R$string
 com.google.android.gms.location.places.zza
 com.google.android.gms.location.ActivityRecognitionApi
 androidx.core.provider.FontProvider$1
@@ -11120,7 +11121,6 @@ androidx.core.content.res.ResourcesCompat:
     public static final int ID_NULL
 org.jetbrains.annotations.Contract
 androidx.core.view.ViewGroupKt$children$1
-com.example.open_weather_app.R$layout
 androidx.media.MediaBrowserServiceCompat$MediaBrowserServiceImplApi21
 androidx.core.view.ViewCompat$3:
     void frameworkSet(android.view.View,java.lang.CharSequence)
@@ -11980,5 +11980,5 @@ com.google.android.gms.common.stats.ConnectionTracker:
     private final java.util.List zzff
     private static boolean zzfb
 io.flutter.plugin.platform.PlatformView$-CC
-io.flutter.plugin.common.BinaryMessenger$-CC
 io.flutter.view.TextureRegistry$SurfaceTextureEntry$-CC
+io.flutter.plugin.common.BinaryMessenger$-CC

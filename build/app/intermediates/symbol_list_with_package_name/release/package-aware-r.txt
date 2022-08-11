@@ -1,4 +1,4 @@
-com.example.open_weather_app
+com.iqsoft.openweather
 attr activityAction
 attr activityName
 attr alpha

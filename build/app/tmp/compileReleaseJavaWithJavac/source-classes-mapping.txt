@@ -1,4 +1,4 @@
 io/flutter/plugins/GeneratedPluginRegistrant.java
  io.flutter.plugins.GeneratedPluginRegistrant
-com/example/open_weather_app/BuildConfig.java
- com.example.open_weather_app.BuildConfig
+com/iqsoft/openweather/BuildConfig.java
+ com.iqsoft.openweather.BuildConfig

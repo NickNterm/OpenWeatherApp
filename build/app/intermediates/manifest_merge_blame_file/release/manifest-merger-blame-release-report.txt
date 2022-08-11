@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.open_weather_app"
-4    android:versionCode="1"
-5    android:versionName="1.0.0" >
+3    package="com.iqsoft.openweather"
+4    android:versionCode="2"
+5    android:versionName="1.0.1" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
@@ -28,110 +28,107 @@
 16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 16-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:8:5-77
 16-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:8:22-74
-17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-17-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:9:5-84
-17-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:9:22-82
-18
-19    <application
-20        android:name="android.app.Application"
-20-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:12:9-42
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.6.0] /home/nick/.gradle/caches/transforms-2/files-2.1/d9ec951af19784586d74ec9518b5b352/core-1.6.0/AndroidManifest.xml:24:18-86
-22        android:icon="@mipmap/ic_launcher"
-22-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:13:9-43
-23        android:label="Open Weather" >
-23-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:11:9-37
-24        <activity
-24-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:14:9-34:20
-25            android:name="com.example.open_weather_app.MainActivity"
-25-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:15:13-41
-26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-26-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:19:13-163
-27            android:exported="true"
-27-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:16:13-36
-28            android:hardwareAccelerated="true"
-28-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:20:13-47
-29            android:launchMode="singleTop"
-29-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:17:13-43
-30            android:theme="@style/LaunchTheme"
-30-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:18:13-47
-31            android:windowSoftInputMode="adjustResize" >
-31-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:21:13-55
-32
-33            <!--
-34                 Specifies an Android theme to apply to this Activity as soon as
-35                 the Android process has started. This theme is visible to the user
-36                 while the Flutter UI initializes. After that, this theme continues
-37                 to determine the Window background behind the Flutter UI.
-38            -->
-39            <meta-data
-39-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:26:13-29:17
-40                android:name="io.flutter.embedding.android.NormalTheme"
-40-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:27:15-70
-41                android:resource="@style/NormalTheme" />
-41-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:28:15-52
-42
-43            <intent-filter>
-43-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:30:13-33:29
-44                <action android:name="android.intent.action.MAIN" />
-44-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:31:17-68
-44-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:31:25-66
-45
-46                <category android:name="android.intent.category.LAUNCHER" />
-46-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:32:17-76
-46-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:32:27-74
-47            </intent-filter>
-48        </activity>
-49        <!--
-50             Don't delete the meta-data below.
-51             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-52        -->
-53        <meta-data
-53-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:37:9-39:33
-54            android:name="flutterEmbedding"
-54-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:38:13-44
-55            android:value="2" />
-55-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:39:13-30
-56
-57        <service
-57-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:11:9-15:56
-58            android:name="com.lyokone.location.FlutterLocationService"
-58-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:12:13-71
-59            android:enabled="true"
-59-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:13:13-35
-60            android:exported="false"
-60-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
-61            android:foregroundServiceType="location" />
-61-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:15:13-53
-62
-63        <uses-library
-63-->[androidx.window:window:1.0.0-beta04] /home/nick/.gradle/caches/transforms-2/files-2.1/24429b5309b9138c7f715551baf806d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-64            android:name="androidx.window.extensions"
-64-->[androidx.window:window:1.0.0-beta04] /home/nick/.gradle/caches/transforms-2/files-2.1/24429b5309b9138c7f715551baf806d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-65            android:required="false" />
-65-->[androidx.window:window:1.0.0-beta04] /home/nick/.gradle/caches/transforms-2/files-2.1/24429b5309b9138c7f715551baf806d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-66        <uses-library
-66-->[androidx.window:window:1.0.0-beta04] /home/nick/.gradle/caches/transforms-2/files-2.1/24429b5309b9138c7f715551baf806d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-67            android:name="androidx.window.sidecar"
-67-->[androidx.window:window:1.0.0-beta04] /home/nick/.gradle/caches/transforms-2/files-2.1/24429b5309b9138c7f715551baf806d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-68            android:required="false" />
-68-->[androidx.window:window:1.0.0-beta04] /home/nick/.gradle/caches/transforms-2/files-2.1/24429b5309b9138c7f715551baf806d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-69
-70        <activity
-70-->[com.google.android.gms:play-services-base:16.0.1] /home/nick/.gradle/caches/transforms-2/files-2.1/80889b7961c732f1c7866bb8f9fd0b48/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
-71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-71-->[com.google.android.gms:play-services-base:16.0.1] /home/nick/.gradle/caches/transforms-2/files-2.1/80889b7961c732f1c7866bb8f9fd0b48/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
-72            android:exported="false"
-72-->[com.google.android.gms:play-services-base:16.0.1] /home/nick/.gradle/caches/transforms-2/files-2.1/80889b7961c732f1c7866bb8f9fd0b48/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
-73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-73-->[com.google.android.gms:play-services-base:16.0.1] /home/nick/.gradle/caches/transforms-2/files-2.1/80889b7961c732f1c7866bb8f9fd0b48/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
-74
-75        <meta-data
-75-->[com.google.android.gms:play-services-basement:16.0.1] /home/nick/.gradle/caches/transforms-2/files-2.1/aef8e7fc1645cff9b48a5c46be3f9792/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
-76            android:name="com.google.android.gms.version"
-76-->[com.google.android.gms:play-services-basement:16.0.1] /home/nick/.gradle/caches/transforms-2/files-2.1/aef8e7fc1645cff9b48a5c46be3f9792/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
-77            android:value="@integer/google_play_services_version" />
-77-->[com.google.android.gms:play-services-basement:16.0.1] /home/nick/.gradle/caches/transforms-2/files-2.1/aef8e7fc1645cff9b48a5c46be3f9792/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
-78    </application>
-79
-80</manifest>
+17
+18    <application
+19        android:name="android.app.Application"
+19-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:11:9-42
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.6.0] /home/nick/.gradle/caches/transforms-2/files-2.1/d9ec951af19784586d74ec9518b5b352/core-1.6.0/AndroidManifest.xml:24:18-86
+21        android:icon="@mipmap/ic_launcher"
+21-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:12:9-43
+22        android:label="Open Weather" >
+22-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:10:9-37
+23        <activity
+23-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:13:9-33:20
+24            android:name="com.iqsoft.openweather.MainActivity"
+24-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:14:13-41
+25            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+25-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:18:13-163
+26            android:exported="true"
+26-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:15:13-36
+27            android:hardwareAccelerated="true"
+27-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:19:13-47
+28            android:launchMode="singleTop"
+28-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:16:13-43
+29            android:theme="@style/LaunchTheme"
+29-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:17:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:20:13-55
+31
+32            <!--
+33                 Specifies an Android theme to apply to this Activity as soon as
+34                 the Android process has started. This theme is visible to the user
+35                 while the Flutter UI initializes. After that, this theme continues
+36                 to determine the Window background behind the Flutter UI.
+37            -->
+38            <meta-data
+38-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:25:13-28:17
+39                android:name="io.flutter.embedding.android.NormalTheme"
+39-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:26:15-70
+40                android:resource="@style/NormalTheme" />
+40-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:27:15-52
+41
+42            <intent-filter>
+42-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:29:13-32:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:30:17-68
+43-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:30:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:31:17-76
+45-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:31:27-74
+46            </intent-filter>
+47        </activity>
+48        <!--
+49             Don't delete the meta-data below.
+50             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+51        -->
+52        <meta-data
+52-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:36:9-38:33
+53            android:name="flutterEmbedding"
+53-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:37:13-44
+54            android:value="2" />
+54-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:38:13-30
+55
+56        <service
+56-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:11:9-15:56
+57            android:name="com.lyokone.location.FlutterLocationService"
+57-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:12:13-71
+58            android:enabled="true"
+58-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:13:13-35
+59            android:exported="false"
+59-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+60            android:foregroundServiceType="location" />
+60-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:15:13-53
+61
+62        <uses-library
+62-->[androidx.window:window:1.0.0-beta04] /home/nick/.gradle/caches/transforms-2/files-2.1/24429b5309b9138c7f715551baf806d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+63            android:name="androidx.window.extensions"
+63-->[androidx.window:window:1.0.0-beta04] /home/nick/.gradle/caches/transforms-2/files-2.1/24429b5309b9138c7f715551baf806d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+64            android:required="false" />
+64-->[androidx.window:window:1.0.0-beta04] /home/nick/.gradle/caches/transforms-2/files-2.1/24429b5309b9138c7f715551baf806d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+65        <uses-library
+65-->[androidx.window:window:1.0.0-beta04] /home/nick/.gradle/caches/transforms-2/files-2.1/24429b5309b9138c7f715551baf806d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+66            android:name="androidx.window.sidecar"
+66-->[androidx.window:window:1.0.0-beta04] /home/nick/.gradle/caches/transforms-2/files-2.1/24429b5309b9138c7f715551baf806d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+67            android:required="false" />
+67-->[androidx.window:window:1.0.0-beta04] /home/nick/.gradle/caches/transforms-2/files-2.1/24429b5309b9138c7f715551baf806d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+68
+69        <activity
+69-->[com.google.android.gms:play-services-base:16.0.1] /home/nick/.gradle/caches/transforms-2/files-2.1/80889b7961c732f1c7866bb8f9fd0b48/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+70            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+70-->[com.google.android.gms:play-services-base:16.0.1] /home/nick/.gradle/caches/transforms-2/files-2.1/80889b7961c732f1c7866bb8f9fd0b48/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+71            android:exported="false"
+71-->[com.google.android.gms:play-services-base:16.0.1] /home/nick/.gradle/caches/transforms-2/files-2.1/80889b7961c732f1c7866bb8f9fd0b48/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+72-->[com.google.android.gms:play-services-base:16.0.1] /home/nick/.gradle/caches/transforms-2/files-2.1/80889b7961c732f1c7866bb8f9fd0b48/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+73
+74        <meta-data
+74-->[com.google.android.gms:play-services-basement:16.0.1] /home/nick/.gradle/caches/transforms-2/files-2.1/aef8e7fc1645cff9b48a5c46be3f9792/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+75            android:name="com.google.android.gms.version"
+75-->[com.google.android.gms:play-services-basement:16.0.1] /home/nick/.gradle/caches/transforms-2/files-2.1/aef8e7fc1645cff9b48a5c46be3f9792/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+76            android:value="@integer/google_play_services_version" />
+76-->[com.google.android.gms:play-services-basement:16.0.1] /home/nick/.gradle/caches/transforms-2/files-2.1/aef8e7fc1645cff9b48a5c46be3f9792/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+77    </application>
+78
+79</manifest>

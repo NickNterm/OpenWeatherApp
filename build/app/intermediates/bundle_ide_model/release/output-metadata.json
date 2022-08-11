@@ -4,7 +4,7 @@
     "type": "BUNDLE",
     "kind": "RegularFile"
   },
-  "applicationId": "com.example.open_weather_app",
+  "applicationId": "com.iqsoft.openweather",
   "variantName": "release",
   "elements": [
     {
