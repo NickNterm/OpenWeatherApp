@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/nick/flatterProjects/open_weather_app/build/connectivity_plus/intermediates/res/merged/release/values-pt-rBR/values-pt-rBR.xml",
+            "map": [
+                {
+                    "source": "/home/nick/.gradle/caches/transforms-2/files-2.1/d9ec951af19784586d74ec9518b5b352/core-1.6.0/res/values-pt-rBR/values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/nick/flatterProjects/open_weather_app/build/connectivity_plus/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
+            "map": [
+                {
+                    "source": "/home/nick/.gradle/caches/transforms-2/files-2.1/d9ec951af19784586d74ec9518b5b352/core-1.6.0/res/values-pt-rBR/values-pt-rBR.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

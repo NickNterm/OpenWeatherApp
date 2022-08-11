@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/nick/flatterProjects/open_weather_app/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/nick/.gradle/caches/transforms-2/files-2.1/d9ec951af19784586d74ec9518b5b352/core-1.6.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

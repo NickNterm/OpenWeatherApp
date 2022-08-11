@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/nick/flatterProjects/open_weather_app/build/connectivity_plus/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_normal.9.png",
+        "source": "/home/nick/.gradle/caches/transforms-2/files-2.1/d9ec951af19784586d74ec9518b5b352/core-1.6.0/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/nick/flatterProjects/open_weather_app/build/connectivity_plus/intermediates/res/merged/release/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/home/nick/.gradle/caches/transforms-2/files-2.1/d9ec951af19784586d74ec9518b5b352/core-1.6.0/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/nick/flatterProjects/open_weather_app/build/connectivity_plus/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/home/nick/.gradle/caches/transforms-2/files-2.1/d9ec951af19784586d74ec9518b5b352/core-1.6.0/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/nick/flatterProjects/open_weather_app/build/connectivity_plus/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/home/nick/.gradle/caches/transforms-2/files-2.1/d9ec951af19784586d74ec9518b5b352/core-1.6.0/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/nick/flatterProjects/open_weather_app/build/connectivity_plus/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/home/nick/.gradle/caches/transforms-2/files-2.1/d9ec951af19784586d74ec9518b5b352/core-1.6.0/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    }
+]
