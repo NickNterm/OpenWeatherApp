@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/nick/flatterProjects/open_weather_app/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "outputFile": "/home/nick/git/OpenWeatherApp/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/nick/.gradle/caches/transforms-2/files-2.1/70492245e304cc6f564aba2758ba79ba/media-1.0.0/res/values/values.xml",
@@ -18,6 +18,25 @@
                         "startOffsets": "1525,1614,1685,3224,3277,3330,3383,6548,9934,10110,10232,10494,10689",
                         "endColumns": "88,70,72,52,52,52,52,59,65,121,60,65,66",
                         "endOffsets": "1609,1680,1753,3272,3325,3378,3431,6603,9995,10227,10288,10555,10751"
+                    }
+                },
+                {
+                    "source": "/home/nick/git/OpenWeatherApp/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,807",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "465,971"
+                    },
+                    "to": {
+                        "startLines": "129,134",
+                        "startColumns": "4,4",
+                        "startOffsets": "9150,9447",
+                        "endLines": "133,136",
+                        "endColumns": "12,12",
+                        "endOffsets": "9442,9611"
                     }
                 },
                 {
@@ -56,25 +75,6 @@
                         "endLines": "8,9,10,11,88,165,169,449,466,474",
                         "endColumns": "11,59,51,44,59,24,24,24,24,24",
                         "endOffsets": "400,460,512,557,5614,11453,11650,27162,28276,28669"
-                    }
-                },
-                {
-                    "source": "/home/nick/flatterProjects/open_weather_app/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "173,807",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "465,971"
-                    },
-                    "to": {
-                        "startLines": "129,134",
-                        "startColumns": "4,4",
-                        "startOffsets": "9150,9447",
-                        "endLines": "133,136",
-                        "endColumns": "12,12",
-                        "endOffsets": "9442,9611"
                     }
                 },
                 {

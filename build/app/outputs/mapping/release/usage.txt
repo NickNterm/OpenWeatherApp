@@ -11979,6 +11979,6 @@ com.google.android.gms.common.stats.ConnectionTracker:
     private final java.util.List zzfe
     private final java.util.List zzff
     private static boolean zzfb
+io.flutter.plugin.platform.PlatformView$-CC
 io.flutter.plugin.common.BinaryMessenger$-CC
 io.flutter.view.TextureRegistry$SurfaceTextureEntry$-CC
-io.flutter.plugin.platform.PlatformView$-CC

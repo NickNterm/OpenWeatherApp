@@ -6,57 +6,57 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml
+8-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml
+9-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:3:5-67
-11-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:3:22-64
+11-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:3:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:4:5-79
-12-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:4:22-76
+12-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:4:5-79
+12-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:4:22-76
 13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-13-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:5:5-81
-13-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:5:22-78
+13-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:5:5-81
+13-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:5:22-78
 14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-14-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:6:5-79
-14-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:6:22-76
+14-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:6:5-79
+14-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:6:22-76
 15    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-15-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:7:5-89
-15-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:7:22-86
+15-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:7:5-89
+15-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:7:22-86
 16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-16-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:8:5-77
-16-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:8:22-74
+16-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:8:5-77
+16-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:8:22-74
 17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-17-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:9:5-84
-17-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:9:22-82
+17-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:9:5-84
+17-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:9:22-82
 18
 19    <application
 20        android:name="android.app.Application"
-20-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:12:9-42
+20-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:12:9-42
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.6.0] /home/nick/.gradle/caches/transforms-2/files-2.1/d9ec951af19784586d74ec9518b5b352/core-1.6.0/AndroidManifest.xml:24:18-86
 22        android:icon="@mipmap/ic_launcher"
-22-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:13:9-43
+22-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:13:9-43
 23        android:label="Open Weather" >
-23-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:11:9-37
+23-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:11:9-37
 24        <activity
-24-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:14:9-34:20
+24-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:14:9-34:20
 25            android:name="com.example.open_weather_app.MainActivity"
-25-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:15:13-41
+25-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:15:13-41
 26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-26-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:19:13-163
+26-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:19:13-163
 27            android:exported="true"
-27-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:16:13-36
+27-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:16:13-36
 28            android:hardwareAccelerated="true"
-28-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:20:13-47
+28-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:20:13-47
 29            android:launchMode="singleTop"
-29-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:17:13-43
+29-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:17:13-43
 30            android:theme="@style/LaunchTheme"
-30-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:18:13-47
+30-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:18:13-47
 31            android:windowSoftInputMode="adjustResize" >
-31-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:21:13-55
+31-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:21:13-55
 32
 33            <!--
 34                 Specifies an Android theme to apply to this Activity as soon as
@@ -65,21 +65,21 @@
 37                 to determine the Window background behind the Flutter UI.
 38            -->
 39            <meta-data
-39-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:26:13-29:17
+39-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:26:13-29:17
 40                android:name="io.flutter.embedding.android.NormalTheme"
-40-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:27:15-70
+40-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:27:15-70
 41                android:resource="@style/NormalTheme" />
-41-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:28:15-52
+41-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:28:15-52
 42
 43            <intent-filter>
-43-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:30:13-33:29
+43-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:30:13-33:29
 44                <action android:name="android.intent.action.MAIN" />
-44-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:31:17-68
-44-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:31:25-66
+44-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:31:17-68
+44-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:31:25-66
 45
 46                <category android:name="android.intent.category.LAUNCHER" />
-46-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:32:17-76
-46-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:32:27-74
+46-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:32:17-76
+46-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:32:27-74
 47            </intent-filter>
 48        </activity>
 49        <!--
@@ -87,22 +87,22 @@
 51             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
 52        -->
 53        <meta-data
-53-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:37:9-39:33
+53-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:37:9-39:33
 54            android:name="flutterEmbedding"
-54-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:38:13-44
+54-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:38:13-44
 55            android:value="2" />
-55-->/home/nick/flatterProjects/open_weather_app/android/app/src/main/AndroidManifest.xml:39:13-30
+55-->/home/nick/git/OpenWeatherApp/android/app/src/main/AndroidManifest.xml:39:13-30
 56
 57        <service
-57-->[:location] /home/nick/flatterProjects/open_weather_app/build/location/intermediates/library_manifest/release/AndroidManifest.xml:11:9-15:56
+57-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:11:9-15:56
 58            android:name="com.lyokone.location.FlutterLocationService"
-58-->[:location] /home/nick/flatterProjects/open_weather_app/build/location/intermediates/library_manifest/release/AndroidManifest.xml:12:13-71
+58-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:12:13-71
 59            android:enabled="true"
-59-->[:location] /home/nick/flatterProjects/open_weather_app/build/location/intermediates/library_manifest/release/AndroidManifest.xml:13:13-35
+59-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:13:13-35
 60            android:exported="false"
-60-->[:location] /home/nick/flatterProjects/open_weather_app/build/location/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+60-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
 61            android:foregroundServiceType="location" />
-61-->[:location] /home/nick/flatterProjects/open_weather_app/build/location/intermediates/library_manifest/release/AndroidManifest.xml:15:13-53
+61-->[:location] /home/nick/git/OpenWeatherApp/build/location/intermediates/library_manifest/release/AndroidManifest.xml:15:13-53
 62
 63        <uses-library
 63-->[androidx.window:window:1.0.0-beta04] /home/nick/.gradle/caches/transforms-2/files-2.1/24429b5309b9138c7f715551baf806d0/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/nick/flatterProjects/open_weather_app/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "/home/nick/git/OpenWeatherApp/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "/home/nick/.gradle/caches/transforms-2/files-2.1/aef8e7fc1645cff9b48a5c46be3f9792/jetified-play-services-basement-16.0.1/res/values-b+sr+Latn/values.xml",

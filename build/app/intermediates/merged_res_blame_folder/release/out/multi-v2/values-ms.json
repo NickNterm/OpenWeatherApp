@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/nick/flatterProjects/open_weather_app/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-ms/values-ms.xml",
+            "outputFile": "/home/nick/git/OpenWeatherApp/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-ms/values-ms.xml",
             "map": [
                 {
                     "source": "/home/nick/.gradle/caches/transforms-2/files-2.1/d9ec951af19784586d74ec9518b5b352/core-1.6.0/res/values-ms/values-ms.xml",
